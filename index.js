@@ -35,5 +35,5 @@ client.once("clientReady", async () => {
     }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
 console.log("TOKEN:", process.env.TOKEN);
