@@ -14,7 +14,7 @@ const rest = new REST({version: "10"}).setToken(process.env.TOKEN);
     console.log("initializing slash commands . . .");
 
     await rest.put(
-      Routes.applicationCommands(process.env.CLIENT_ID),
+      Routes.applicationGuildCommands("APP_ID", "GUILD_ID"),
       { body: commands }
     );
 

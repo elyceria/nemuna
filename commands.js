@@ -17,8 +17,6 @@ module.exports = {
 
 const { EmbedBuilder } = require("discord.js");
 
-const ELY_ID = "1308269381863739485";
-
 module.exports = {
   name: "teststream",
 
@@ -36,7 +34,7 @@ module.exports = {
 
     return interaction.reply({
       embeds: [embed],
-      allowedMentions: { parse: [] } // extra safety: prevents accidental pings
+      allowedMentions: { parse: [] }
     });
   }
 };
