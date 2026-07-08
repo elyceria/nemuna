@@ -1,2 +1,3 @@
 # nemuna
-the ultimate all-in-one streaming bot for elyceria, except i'm being super ambitious for the skills i have >:D
+a streaming bot and passion project
+i hope this can go on the portfolio when i can make more than just a bot that sends templates through a discord API...
